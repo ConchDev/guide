@@ -10,7 +10,7 @@ const config = {
   tagline:
     "Imagine a place... where you can learn how to add more features to your Pycord bot",
   url: "https://pycord.dev",
-  baseUrl: "/",
+  baseUrl: "/guide/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
@@ -25,7 +25,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl:
             "https://github.com/Pycord-Development/guide/tree/master/guide",
-          routeBasePath: "/guide",
+          routeBasePath: "/",
         },
         theme: {
           customCss: require.resolve("./src/scss/main.scss"),
@@ -54,7 +54,7 @@ const config = {
       items: [
         {
           type: "doc",
-          docId: "index",
+          docId: "intro",
           position: "left",
           label: "Guide",
         },
